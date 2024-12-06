@@ -1,0 +1,4 @@
+/home/zarashane/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/zarashane/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/zarashane/Documents/CLionProjects/AdventOfCode2024 -B /home/zarashane/Documents/CLionProjects/AdventOfCode2024/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/zarashane/Documents/CLionProjects/AdventOfCode2024/cmake-build-debug

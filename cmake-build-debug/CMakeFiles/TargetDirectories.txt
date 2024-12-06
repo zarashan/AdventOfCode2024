@@ -1,0 +1,3 @@
+/home/zarashane/Documents/CLionProjects/AdventOfCode2024/cmake-build-debug/CMakeFiles/AdventOfCode2024.dir
+/home/zarashane/Documents/CLionProjects/AdventOfCode2024/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zarashane/Documents/CLionProjects/AdventOfCode2024/cmake-build-debug/CMakeFiles/rebuild_cache.dir
