@@ -94,7 +94,22 @@ build CMakeFiles/AdventOfCode2024.dir/Days/two/Advent2.cpp.o: CXX_COMPILER__Adve
   OBJECT_FILE_DIR = CMakeFiles/AdventOfCode2024.dir/Days/two
   dyndep = CMakeFiles/AdventOfCode2024.dir/CXX.dd
 
-build CMakeFiles/AdventOfCode2024.dir/CXX.dd | /home/zarashane/Documents/CLionProjects/AdventOfCode2024/cmake-build-debug/CMakeFiles/AdventOfCode2024.dir/CXXModules.json CMakeFiles/AdventOfCode2024.dir/main.cpp.o.modmap CMakeFiles/AdventOfCode2024.dir/Days/one/Advent1_1.cpp.o.modmap CMakeFiles/AdventOfCode2024.dir/Days/two/Advent2.cpp.o.modmap: CXX_DYNDEP__AdventOfCode2024_Debug CMakeFiles/AdventOfCode2024.dir/main.cpp.o.ddi CMakeFiles/AdventOfCode2024.dir/Days/one/Advent1_1.cpp.o.ddi CMakeFiles/AdventOfCode2024.dir/Days/two/Advent2.cpp.o.ddi | /home/zarashane/Documents/CLionProjects/AdventOfCode2024/cmake-build-debug/CMakeFiles/AdventOfCode2024.dir/CXXDependInfo.json
+build CMakeFiles/AdventOfCode2024.dir/Days/three/Advent3.cpp.o.ddi: CXX_SCAN__AdventOfCode2024_Debug /home/zarashane/Documents/CLionProjects/AdventOfCode2024/Days/three/Advent3.cpp || cmake_object_order_depends_target_AdventOfCode2024
+  DEP_FILE = CMakeFiles/AdventOfCode2024.dir/Days/three/Advent3.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/AdventOfCode2024.dir/Days/three/Advent3.cpp.o.ddi
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/AdventOfCode2024.dir/Days/three/Advent3.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/AdventOfCode2024.dir/Days/three/Advent3.cpp.o.ddi.i
+
+build CMakeFiles/AdventOfCode2024.dir/Days/three/Advent3.cpp.o: CXX_COMPILER__AdventOfCode2024_scanned_Debug /home/zarashane/Documents/CLionProjects/AdventOfCode2024/Days/three/Advent3.cpp | CMakeFiles/AdventOfCode2024.dir/Days/three/Advent3.cpp.o.modmap || cmake_object_order_depends_target_AdventOfCode2024 CMakeFiles/AdventOfCode2024.dir/CXX.dd
+  DEP_FILE = CMakeFiles/AdventOfCode2024.dir/Days/three/Advent3.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/AdventOfCode2024.dir/Days/three/Advent3.cpp.o.modmap
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/AdventOfCode2024.dir
+  OBJECT_FILE_DIR = CMakeFiles/AdventOfCode2024.dir/Days/three
+  dyndep = CMakeFiles/AdventOfCode2024.dir/CXX.dd
+
+build CMakeFiles/AdventOfCode2024.dir/CXX.dd | /home/zarashane/Documents/CLionProjects/AdventOfCode2024/cmake-build-debug/CMakeFiles/AdventOfCode2024.dir/CXXModules.json CMakeFiles/AdventOfCode2024.dir/main.cpp.o.modmap CMakeFiles/AdventOfCode2024.dir/Days/one/Advent1_1.cpp.o.modmap CMakeFiles/AdventOfCode2024.dir/Days/two/Advent2.cpp.o.modmap CMakeFiles/AdventOfCode2024.dir/Days/three/Advent3.cpp.o.modmap: CXX_DYNDEP__AdventOfCode2024_Debug CMakeFiles/AdventOfCode2024.dir/main.cpp.o.ddi CMakeFiles/AdventOfCode2024.dir/Days/one/Advent1_1.cpp.o.ddi CMakeFiles/AdventOfCode2024.dir/Days/two/Advent2.cpp.o.ddi CMakeFiles/AdventOfCode2024.dir/Days/three/Advent3.cpp.o.ddi | /home/zarashane/Documents/CLionProjects/AdventOfCode2024/cmake-build-debug/CMakeFiles/AdventOfCode2024.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -104,7 +119,7 @@ build CMakeFiles/AdventOfCode2024.dir/CXX.dd | /home/zarashane/Documents/CLionPr
 #############################################
 # Link the executable AdventOfCode2024
 
-build AdventOfCode2024: CXX_EXECUTABLE_LINKER__AdventOfCode2024_Debug CMakeFiles/AdventOfCode2024.dir/main.cpp.o CMakeFiles/AdventOfCode2024.dir/Days/one/Advent1_1.cpp.o CMakeFiles/AdventOfCode2024.dir/Days/two/Advent2.cpp.o
+build AdventOfCode2024: CXX_EXECUTABLE_LINKER__AdventOfCode2024_Debug CMakeFiles/AdventOfCode2024.dir/main.cpp.o CMakeFiles/AdventOfCode2024.dir/Days/one/Advent1_1.cpp.o CMakeFiles/AdventOfCode2024.dir/Days/two/Advent2.cpp.o CMakeFiles/AdventOfCode2024.dir/Days/three/Advent3.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/AdventOfCode2024.dir
   POST_BUILD = :

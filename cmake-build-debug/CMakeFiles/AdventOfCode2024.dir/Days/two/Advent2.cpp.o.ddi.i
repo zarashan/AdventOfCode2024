@@ -87184,6 +87184,7 @@ void Advent2::LoadFromFile()
             currentNumber += c;
         }
     }
+    DataFile.close();
 
     if (!currentNumber.empty()) CheckData.back().push_back(atoi(currentNumber.c_str()));
 }
@@ -87205,7 +87206,6 @@ int Advent2::Part2()
 
     for (int i = 0; i < CheckData.size(); i++)
     {
-        auto cnt = 3;
         for (int x = 0; x < CheckData[i].size(); x++)
         {
             std::vector<int> v = CheckData[i];
@@ -87215,10 +87215,6 @@ int Advent2::Part2()
                 sum++;
                 break;
             }
-            cnt--;
-
-            if (cnt == 0)
-                break;
         }
     }
     return sum;

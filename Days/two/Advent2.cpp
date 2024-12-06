@@ -46,6 +46,7 @@ void Advent2::LoadFromFile()
             currentNumber += c;
         }
     }
+    DataFile.close();
 
     if (!currentNumber.empty()) CheckData.back().push_back(atoi(currentNumber.c_str()));
 }

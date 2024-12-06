@@ -40,6 +40,7 @@ void Advent1_1::LoadFromFile(std::string filename)
         }
     }
 
+    DataFile.close();
     if(!currentNumber.empty()) DataRight.push_back(atoi(currentNumber.c_str()));
 }
 
