@@ -10,4 +10,6 @@ add_executable(AdventOfCode2024 main.cpp
         Days/two/Advent2.h
         Days/three/Advent3.cpp
         Days/three/Advent3.h
+        Days/four/Advent4.cpp
+        Days/four/Advent4.h
 )
