@@ -7,10 +7,11 @@ typedef std::chrono::high_resolution_clock Clock;
 #include "Days/three/Advent3.h"
 #include "Days/four/Advent4.h"
 #include "Days/five/Advent5.h"
+#include "Days/six/Advent6.h"
 
 int main()
 {
-    Advent5 advent;
+    Advent6 advent;
     advent.LoadFromFile();
 
     std::cout << advent.Part2() << std::endl;

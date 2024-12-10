@@ -32,15 +32,6 @@ public:
 
         return returnable;
     }
-
-    // template<typename T>
-    // bool Contains<T>(std::vector<T> array, T Value)
-    // {
-    //     for(int i = 0; i < MAX; ++i)
-    //     {
-    //
-    //     }
-    // }
 };
 
 #endif //DAYBASE_H

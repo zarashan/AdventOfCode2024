@@ -3,7 +3,9 @@ project(AdventOfCode2024)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(AdventOfCode2024 main.cpp
+add_executable(AdventOfCode2024
+        main.cpp
+        Days/DayBase.h
         Days/one/Advent1_1.cpp
         Days/one/Advent1_1.h
         Days/two/Advent2.cpp
@@ -14,5 +16,6 @@ add_executable(AdventOfCode2024 main.cpp
         Days/four/Advent4.h
         Days/five/Advent5.cpp
         Days/five/Advent5.h
-        Days/DayBase.h
+        Days/six/Advent6.cpp
+        Days/six/Advent6.h
 )
